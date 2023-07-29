@@ -4,7 +4,6 @@ import com.example.springstartup.config.WebAppConfig;
 import com.example.springstartup.config.WebRootConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-
 public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     @Override

@@ -11,6 +11,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 public class WebAppConfig {
     //this constructor will trigger without create an instance in Spring framework
     public WebAppConfig(){
-        System.out.println("Hello Spring Mvc");
+        System.out.println("Hello I am Web app config");
     }
 }

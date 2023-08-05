@@ -9,5 +9,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 @Configuration
 @EnableWebMvc
 public class WebRootConfig {
-
+    public WebRootConfig(){
+        System.out.println("I am Web root config");
+    }
 }

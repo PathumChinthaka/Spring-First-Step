@@ -6,7 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/customer")
+//@RequestMapping("/customer")
+
+//this request mapping used for dynamically changeing url patterns
+@RequestMapping("/custome?")
 public class Customer {
     @PostMapping
     public String saveCustomer(){

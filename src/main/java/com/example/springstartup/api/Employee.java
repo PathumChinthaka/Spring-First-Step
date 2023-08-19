@@ -20,7 +20,9 @@ public class Employee {
 
     @PostMapping
     public String getMultiTypeData(String id,String country,String city,
-        @RequestParam("towns") String[] towns,@RequestParam MultiValueMap<String,String>data){
+        @RequestParam("towns") String[] towns,@RequestParam MultiValueMap<String,String>data)
+
+    {
         System.out.println(id);
         System.out.println(country);
         System.out.println(city);
@@ -29,4 +31,7 @@ public class Employee {
 
         return "saved";
     }
+
+    //Map-> {001,sl,panadura,aluthgama,kandu,nuwara,}
+    //MultiValueMap->{id[001],country[sl],city[panadura],towns[kandy,matale]}
 }
